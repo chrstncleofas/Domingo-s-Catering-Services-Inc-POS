@@ -1,0 +1,6 @@
+        Dim dataset As New DataSet1
+        Dim adapter As New DataSet1TableAdapters.tbltranTableAdapter
+        adapter.Fill(dataset.tbltran)
+        Dim report As New CrystalReport1
+        report.SetDataSource(dataset)
+        CrystalReportViewer1.ReportSource = report

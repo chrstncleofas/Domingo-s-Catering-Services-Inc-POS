@@ -1,0 +1,252 @@
+Public Class frmcashierwindow
+
+    Private Sub frmtransaction_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        opendbtemp()
+        sqlquerytemp()
+        db.Open()
+        dbcmd = New OleDb.OleDbCommand("delete * from tbltemp", db)
+        dbcmd.ExecuteNonQuery()
+        dgtemp.DataSource = dbdstemp.Tables("tbltemp")
+        dgtemp.Enabled = False
+
+        gbpay.Visible = False
+        lblcashier.Text = xname
+        Label4.Text = Format(Now, "dd MMMM, yyyy")
+
+        xGTotal = 0
+    End Sub
+
+    Private Sub txtSN_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles txtSN.KeyDown
+
+        If e.KeyCode = Keys.F12 Then
+            gbpay.Visible = True
+            txtamt.Focus()
+            gbtrans.Visible = False
+
+            Exit Sub
+        End If
+
+        If e.KeyCode = 27 Then
+            If MsgBox("This action will close the the transaction window, the next user will be ask to log - in! Do you wish to continue?", MsgBoxStyle.DefaultButton1 + vbYesNo, "logging - off") = MsgBoxResult.Yes Then
+
+                Dim counter As Integer
+
+                For counter = 90 To 10 Step -20
+                    Me.Opacity = counter / 100
+                    Me.Refresh()
+                    Threading.Thread.Sleep(5)
+                Next counter
+
+                Me.Close()
+                frmlogin.Show()
+                frmmain.Close()
+                frmlogin.cmdlogoff.Visible = True
+
+            Else
+                txtamt.Focus()
+            End If
+            Exit Sub
+        End If
+
+        If e.KeyCode = Keys.Enter Then
+
+
+            Try
+
+                tblstock = New OleDb.OleDbDataAdapter("SELECT * FROM tblstocks WHERE [Stock No] like '" & txtSN.Text.Trim & "' ", db)
+                dbds = New DataSet()
+                tblstock.Fill(dbds, "tblstocks")
+
+                If dbds.Tables("tblstocks").Rows.Count > 0 Then
+
+
+                    xUP = dbds.Tables("tblstocks").Rows(0).Item("Selling Price per Item")
+                    lbldisplay.Text = Format(xUP, "Standard")
+                    xDesc = dbds.Tables("tblstocks").Rows(0).Item("Description")
+
+
+                    tbltemp = New OleDb.OleDbDataAdapter("SELECT * FROM tbltemp WHERE [Stock No] like '" & txtSN.Text.Trim & "'", db)
+                    dbdstemp = New DataSet()
+                    tbltemp.Fill(dbdstemp, "tbltemp")
+
+                    If dbdstemp.Tables("tbltemp").Rows.Count > 0 Then
+
+                        If MsgBox("This item is already on your list, Would you like to add this one?", MsgBoxStyle.YesNo) = MsgBoxResult.Yes Then
+                            xtempq = dbdstemp.Tables("tbltemp").Rows(0).Item("Quantity")
+                            xGTotal = dbdstemp.Tables("tbltemp").Rows(0).Item("Total")
+
+
+                            txtQ.Focus()
+                            sw = False
+                        Else
+                            txtSN.Clear()
+                            lbldisplay.Text = ""
+
+                            Exit Sub
+                        End If
+
+                        Exit Sub
+                    Else
+                        sw = True
+                        txtQ.Focus()
+                    End If
+                Else
+                    MsgBox("There is NO corresponding Item with this Stock No, Please enter a valid a Stock No., Thank you!", , "sorry..")
+                    txtSN.Clear()
+                    txtSN.Focus()
+                End If
+
+
+            Catch err As Exception
+                MsgBox(err.ToString)
+            Finally
+                db.Close()
+            End Try
+        End If
+
+
+    End Sub
+
+    Private Sub txtQ_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles txtQ.KeyDown
+
+        If e.KeyCode = Keys.Enter Then
+
+            dgtemp.DataSource = dbdstemp.Tables("tbltemp")
+
+            If txtQ.Text = "" Then
+                MsgBox("Kindly enter the no. of quantity for this Item(s)!, Thank you...", , "oops")
+                txtQ.Focus()
+                Exit Sub
+
+            End If
+
+
+            If e.KeyCode = Keys.Enter Then
+
+                
+                xGTotal = CSng(xGTotal) + CSng(lbltotal.Text)
+                lbldisplay.Text = Format(xGTotal, "Standard")
+
+                db.Open()
+
+
+                If sw = True Then
+                    dbcmd = New OleDb.OleDbCommand("INSERT INTO tbltemp([Stock No],[Description],[Quantity],[Unit Price],[Total]) VALUES ('" & txtSN.Text.Trim & "','" & xDesc & "','" & txtQ.Text.Trim & "','" & xUP & "','" & lbltotal.Text.Trim & "')", db)
+                    dbcmd.ExecuteNonQuery()
+                Else
+                    xtempq = xtempq + CInt(txtQ.Text)
+                    xGTotal = CSng(xGTotal) + CSng(lbltotal.Text)
+
+                    dbcmd = New OleDb.OleDbCommand("update tbltemp set [Quantity]='" & xtempq & "',[Total]='" & lbldisplay.Text & "' where [Stock No] like '" & txtSN.Text & "'", db)
+                    dbcmd.ExecuteNonQuery()
+                End If
+
+                sqlquerytemp()
+                dgtemp.DataSource = dbdstemp.Tables("tbltemp")
+
+                txtQ.Clear()
+                txtSN.Clear()
+
+                tbltemp = New OleDb.OleDbDataAdapter("SELECT sum([Total]) as xt  FROM tbltemp", db)
+                dbdstemp = New DataSet()
+                tbltemp.Fill(dbdstemp, "tbltemp")
+
+                If dbdstemp.Tables("tbltemp").Rows.Count > 0 Then
+                    recpointer = 0
+                    trec = CInt(dbdstemp.Tables("tbltemp").Rows.Count) - 1
+                End If
+
+                lbldisplay.Text = dbdstemp.Tables("tbltemp").Rows(0).Item("xt")
+                lbldisplay.Text = Format(lbldisplay.Text, "Standard")
+                txtSN.Focus()
+
+            End If
+
+        End If
+
+
+    End Sub
+
+    Private Sub txtamt_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles txtamt.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            If CSng(txtamt.Text) < CSng(lbldisplay.Text) Then
+                MsgBox("Oops, but you have an insufficiecnt money to make this transaction!", MsgBoxStyle.Information, "wait a minute..")
+                txtamt.Text = ""
+                Exit Sub
+            End If
+
+            lblchange.Text = CSng(txtamt.Text) - CSng(lbldisplay.Text)
+            txtamt.Text = Format(txtamt.Text, "standard")
+            lblchange.Text = Format(lblchange.Text, "standard")
+
+
+            tbltemp = New OleDb.OleDbDataAdapter("SELECT * FROM tbltemp", db)
+            dbdstemp = New DataSet()
+            tbltemp.Fill(dbdstemp, "tbltemp")
+            trec = dbdstemp.Tables("tbltemp").Rows.Count - 1
+            recpointer = 0
+            'db.Open()
+
+            For recpointer = 0 To trec
+                xDesc = dbdstemp.Tables("tbltemp").Rows(recpointer).Item("Description")
+                xUP = dbdstemp.Tables("tbltemp").Rows(recpointer).Item("Unit Price")
+                xqty = dbdstemp.Tables("tbltemp").Rows(recpointer).Item("Quantity")
+                xsn = dbdstemp.Tables("tbltemp").Rows(recpointer).Item("Stock No")
+                xtotal = dbdstemp.Tables("tbltemp").Rows(recpointer).Item("Total")
+                xtime = Format(Now, "hh:mm")
+
+                dbcmd = New OleDb.OleDbCommand("INSERT INTO tbltran([Stock No],[Description],[Quantity],[Unit Price],[Total],[Date Tran],[Time Tran], [Cashiers Name] ) VALUES ('" & xsn & "','" & xDesc & "','" & xqty & "','" & xUP & "','" & xtotal & "'," & Format(Now, "mm/dd/yyyy") & ",'" & xtime & "','" & xname & "')", db)
+                dbcmd.ExecuteNonQuery()
+
+                tblstock = New OleDb.OleDbDataAdapter("SELECT * FROM tblstocks WHERE [Stock No] like '" & xsn & "' ", db)
+                dbds = New DataSet()
+                tblstock.Fill(dbds, "tblstocks")
+                stocksqty = dbds.Tables("tblstocks").Rows(0).Item("Quantity")
+                stocksqty = stocksqty - xqty
+                ' db.Open()
+                dbcmd = New OleDb.OleDbCommand("UPDATE tblstocks set [Quantity] = '" & stocksqty & "' WHERE [Stock No] like '" & xsn & "'", db)
+                dbcmd.ExecuteNonQuery()
+                'sqlquerytemp()
+
+            Next
+        End If
+        If e.KeyCode = Keys.F1 Then
+            gbpay.Visible = False
+            gbtrans.Visible = True
+            txtSN.Focus()
+
+            opendbtemp()
+            sqlquerytemp()
+            db.Open()
+            dbcmd = New OleDb.OleDbCommand("delete * from tbltemp", db)
+            dbcmd.ExecuteNonQuery()
+            dgtemp.DataSource = dbdstemp.Tables("tbltemp")
+
+            xGTotal = 0
+
+            lbldisplay.Text = ""
+            lbltotal.Text = ""
+            txtamt.Clear()
+            lblchange.Text = ""
+
+            
+
+            Exit Sub
+        End If
+    End Sub
+
+   
+    Private Sub txtQ_TextChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles txtQ.TextChanged
+        Try
+            lbltotal.Text = CInt(txtQ.Text) * CInt(xUP)
+            lbltotal.Text = Format(lbltotal.Text, "Standard")
+        Catch err As Exception
+            'MsgBox(err.ToString)
+        End Try
+
+    End Sub
+
+   
+End Class
+
+

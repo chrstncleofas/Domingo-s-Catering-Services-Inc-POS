@@ -1,0 +1,22 @@
+Dim conx As String = ""
+    Dim random As Random = New Random()
+    Dim idd As Guid = Guid.NewGuid()
+    Dim id As String = Guid.NewGuid().ToString("n")
+    'Sub autotransid()
+    '    lblTrans.Text = id
+    'End Sub
+    'Sub autotransid()
+    '    For cony As Integer = 1 To 6
+    '        conx = Date.Now.Year
+    '        If cony = 6 Then
+    '            conx += "-"
+    '        End If
+    '    Next
+    '    For cony As Integer = 1 To 6
+    '        conx += Convert.ToString(random.Next(0, 9))
+    '    Next
+    '    lblTrans.Text = conx
+    '    If lblTrans.Text = conx Then
+    '        conx = Nothing
+    '    End If
+    'End Sub

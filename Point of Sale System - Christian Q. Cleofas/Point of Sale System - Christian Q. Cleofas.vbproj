@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E70FE753-ADC0-4C66-AF38-E7F56A99256F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Point_of_Sale_System___Christian_Q.Cleofas.My.MyApplication</StartupObject>
+    <RootNamespace>Point_of_Sale_System___Christian_Q.Cleofas</RootNamespace>
+    <AssemblyName>Point_of_Sale_System___Christian_Q.Cleofas</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Point_of_Sale_System___Christian_Q.Cleofas.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Point_of_Sale_System___Christian_Q.Cleofas.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\VB Framework\PcWonderland.com_Guna_UI_Framework_Ultimate_2\Guna UI Framework Ultimate v2.0.0.1 Lib-Master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\..\..\Installer\Guna UI Framework\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\Installer\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddQtyCashier.Designer.vb">
+      <DependentUpon>AddQtyCashier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddQtyCashier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cashier.Designer.vb">
+      <DependentUpon>Cashier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cashier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierEditForm.Designer.vb">
+      <DependentUpon>CashierEditForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CashierEditForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashPay.Designer.vb">
+      <DependentUpon>CashPay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CashPay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="connVariable.vb" />
+    <Compile Include="DataSetForAll.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetForAll.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Discount.Designer.vb">
+      <DependentUpon>Discount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Discount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrinter.Designer.vb">
+      <DependentUpon>FormPrinter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrinter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaymentOption.Designer.vb">
+      <DependentUpon>PaymentOption.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentOption.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sales.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SearchItemForm.Designer.vb">
+      <DependentUpon>SearchItemForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchItemForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stock.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>stock.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SalesReportView.Designer.vb">
+      <DependentUpon>SalesReportView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalesReportView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryDashBoard.Designer.vb">
+      <DependentUpon>InventoryDashBoard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryDashBoard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockReportView1.Designer.vb">
+      <DependentUpon>StockReportView1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StockReportView1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>user.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserForm.Designer.vb">
+      <DependentUpon>UserForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserReportView.Designer.vb">
+      <DependentUpon>UserReportView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserReportView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VoidItem.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VoidItem.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddQtyCashier.resx">
+      <DependentUpon>AddQtyCashier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cashier.resx">
+      <DependentUpon>Cashier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierEditForm.resx">
+      <DependentUpon>CashierEditForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashPay.resx">
+      <DependentUpon>CashPay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Discount.resx">
+      <DependentUpon>Discount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrinter.resx">
+      <DependentUpon>FormPrinter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentOption.resx">
+      <DependentUpon>PaymentOption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>sales.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchItemForm.resx">
+      <DependentUpon>SearchItemForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stock.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>stock.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesReportView.resx">
+      <DependentUpon>SalesReportView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryDashBoard.resx">
+      <DependentUpon>InventoryDashBoard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockReportView1.resx">
+      <DependentUpon>StockReportView1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>user.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm.resx">
+      <DependentUpon>UserForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserReportView.resx">
+      <DependentUpon>UserReportView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VoidItem.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VoidItem.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetForAll.xsc">
+      <DependentUpon>DataSetForAll.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetForAll.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetForAll.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSetForAll.xss">
+      <DependentUpon>DataSetForAll.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-export-excel-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-rounded-up-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-microsoft-excel-500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-business-report-100.png" />
+    <None Include="Resources\icons8-inventory-flow-100.png" />
+    <None Include="Resources\icons8-add-user-male-64.png" />
+    <None Include="Resources\icons8-cash-register-80.png" />
+    <None Include="Resources\icons8-sales-performance-100.png" />
+    <None Include="Resources\icons8-report-file-64.png" />
+    <None Include="Resources\icons8-trash-192.png" />
+    <None Include="Resources\icons8-preview-pane-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Form\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-print-file-64.png" />
+    <None Include="Resources\icons8-file-preview-96.png" />
+    <None Include="Resources\icons8-left-arrow-90.png" />
+    <None Include="Resources\icons8-logout-rounded-up-641.png" />
+    <None Include="Resources\icons8-save-52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-642.png" />
+    <None Include="Resources\icons8-close-641.png" />
+    <None Include="Resources\icons8-close-64 %281%292.png" />
+    <None Include="Resources\icons8-microsoft-excel-501.png" />
+    <None Include="Resources\icons8-loading-601.png" />
+    <None Include="Resources\icons8-microsoft-excel-50.png" />
+    <None Include="Resources\icons8-loading-60.png" />
+    <None Include="Resources\icons8-report-641.png" />
+    <None Include="Resources\icons8-new-product-1003.png" />
+    <None Include="Resources\icons8-report-64.png" />
+    <None Include="Resources\icons8-cashier-601.png" />
+    <None Include="Resources\icons8-add-user-male-1001.png" />
+    <None Include="Resources\icons8-logout-100 %281%29.png" />
+    <None Include="Resources\icons8-new-product-1002.png" />
+    <None Include="Resources\icons8-add-user-male-100.png" />
+    <None Include="Resources\icons8-cashier-60.png" />
+    <None Include="Resources\icons8-close-64.png" />
+    <None Include="Resources\icons8-new-product-1001.png" />
+    <None Include="Resources\icons8-upload-1001.png" />
+    <None Include="Resources\icons8-back-100.png" />
+    <None Include="Resources\icons8-home-64.png" />
+    <None Include="Resources\icons8-new-product-100.png" />
+    <None Include="Resources\icons8-printer-641.png" />
+    <None Include="Resources\icons8-search-501.png" />
+    <None Include="Resources\icons8-clear-symbol-1001.png" />
+    <None Include="Resources\icons8-edit-file-641.png" />
+    <None Include="Resources\icons8-save-100 %281%29.png" />
+    <None Include="Resources\icons8-close-64 %281%291.png" />
+    <None Include="Resources\icons8-add-100.png" />
+    <None Include="Resources\icons8-clear-symbol-100.png" />
+    <None Include="Resources\icons8-search-50.png" />
+    <None Include="Resources\icons8-upload-100.png" />
+    <None Include="Resources\icons8-close-64 %281%29.png" />
+    <None Include="Resources\icons8-printer-64.png" />
+    <None Include="Resources\icons8-end-100.png" />
+    <None Include="Resources\icons8-skip-to-start-100.png" />
+    <None Include="Resources\icons8-last-100.png" />
+    <None Include="Resources\icons8-first-100.png" />
+    <None Include="Resources\icons8-eye-checked-100.png" />
+    <None Include="Resources\icons8-eye-unchecked-100.png" />
+    <None Include="Resources\icons8-lock-50.png" />
+    <None Include="Resources\icons8-user-100.png" />
+    <None Include="Resources\icons8-payment-64.png" />
+    <None Include="Resources\icons8-clear-symbol-961.png" />
+    <None Include="Resources\icons8-save-1001.png" />
+    <None Include="Resources\icons8-inventory-flow-1002.png" />
+    <None Include="Resources\icons8-report-file-641.png" />
+    <None Include="Resources\icons8-login-1281.png" />
+    <None Include="Resources\icons8-folder-400.png" />
+    <None Include="Resources\icons8-inventory-flow-1001.png" />
+    <None Include="Resources\icons8-add-user-male-641.png" />
+    <None Include="Resources\icons8-cash-register-802.png" />
+    <None Include="Resources\icons8-settings-100.png" />
+    <None Include="Resources\icons8-payment-check-64.png" />
+    <None Include="Resources\icons8-delete-receipt-100.png" />
+    <None Include="Resources\icons8-save-100.png" />
+    <None Include="Resources\icons8-refresh-100.png" />
+    <None Include="Resources\icons8-logout-100.png" />
+    <None Include="Resources\icons8-remove-1001.png" />
+    <None Include="Resources\icons8-edit-file-64.png" />
+    <None Include="Resources\icons8-remove-100.png" />
+    <None Include="Resources\icons8-voucher-64.png" />
+    <None Include="Resources\icons8-mts-money-100.png" />
+    <None Include="Resources\icons8-mastercard-logo-100.png" />
+    <None Include="Resources\icons8-initiate-money-transfer-1002.png" />
+    <None Include="Resources\icons8-initiate-money-transfer-1001.png" />
+    <None Include="Resources\icons8-paycheque-100.png" />
+    <None Include="Resources\G.png" />
+    <None Include="Resources\Gcash.png" />
+    <None Include="Resources\icons8-bank-cards-100.png" />
+    <None Include="Resources\icons8-initiate-money-transfer-100.png" />
+    <None Include="Resources\icons8-cash-register-801.png" />
+    <None Include="Resources\icons8-business-report-1001.png" />
+    <None Include="Resources\icons8-login-128.png" />
+    <None Include="Resources\icons8-trash-240.png" />
+    <None Include="Resources\icons8-next-page-100.png" />
+    <None Include="Resources\icons8-save-521.png" />
+    <None Include="Resources\icons8-clear-symbol-96.png" />
+    <None Include="Resources\icons8-cursor-in-window-100.png" />
+    <None Include="Resources\Reload.png" />
+    <None Include="Resources\icons8-settings-150.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="myDbase.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\icons8-voucher-641.png" />
+    <None Include="Resources\icons8-payment-641.png" />
+    <None Include="Resources\icons8-mts-money-1001.png" />
+    <None Include="Resources\icons8-clear-symbol-1002.png" />
+    <None Include="Resources\icons8-printer-642.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

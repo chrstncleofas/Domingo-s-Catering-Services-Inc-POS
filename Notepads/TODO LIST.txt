@@ -1,0 +1,8 @@
+Todo List
+
+1. Interface ng POS like Icon
+2. Discount
+3. Edit
+4. Try natin sa grid mismo ung buttons like delete etc.
+5. Report Form
+6. Issue in Cashier. in Void may bug siya na pag sususnd na gamit nag plus na di na deduct

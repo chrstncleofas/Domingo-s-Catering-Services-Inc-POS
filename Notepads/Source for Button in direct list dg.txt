@@ -1,0 +1,17 @@
+'Dim btn As New DataGridViewButtonColumn
+        'dgtemp.Columns.Add(btn)
+        'btn.HeaderText = "Delete Item"
+
+        'btn.Name = "btn"
+        'btn.UseColumnTextForButtonValue = True
+        ''dgtemp.Columns.Insert(5, btn)
+        'dgtemp.Refresh()
+
+        'Dim btn1 As New DataGridViewButtonColumn
+        'dgtemp.Columns.Add(btn1)
+        'btn1.HeaderText = "Edit Item"
+
+        'btn1.Name = "btn1"
+        'btn1.UseColumnTextForButtonValue = True
+        ''dgtemp.Columns.Insert(6, btn1)
+        'dgtemp.Refresh()

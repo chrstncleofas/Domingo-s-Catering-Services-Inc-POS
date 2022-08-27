@@ -1,0 +1,12 @@
+Flow Chart Cashier
+
+1. Change Product Number into Item Name
+2. Void Item or Remove and Save to another table
+3. Discount Page
+4. Payment Option can Select 2 option
+
+
+Sales Report
+
+1. Small page and Details
+2. applying Void per item 

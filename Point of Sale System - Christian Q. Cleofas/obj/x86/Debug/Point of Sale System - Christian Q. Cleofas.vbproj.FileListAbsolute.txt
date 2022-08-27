@@ -1,0 +1,89 @@
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\bin\Debug\Point_of_Sale_System___Christian_Q.Cleofas.exe.config
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\bin\Debug\Point_of_Sale_System___Christian_Q.Cleofas.exe
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\bin\Debug\Point_of_Sale_System___Christian_Q.Cleofas.pdb
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\bin\Debug\Point_of_Sale_System___Christian_Q.Cleofas.xml
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.LoginForm.resources
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.MainForm.resources
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.Resources.resources
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point of Sale System - Christian Q. Cleofas.vbproj.GenerateResource.Cache
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.exe
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.xml
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.pdb
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.UserForm.resources
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.Cashier.resources
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\bin\Debug\myDbase.mdb
+C:\Users\Chrstn Clfs\Desktop\Files in CS-Elective\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\bin\Debug\Point_of_Sale_System___Christian_Q.Cleofas.exe.config
+C:\Users\Chrstn Clfs\Desktop\Files in CS-Elective\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.exe
+C:\Users\Chrstn Clfs\Desktop\Files in CS-Elective\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.xml
+C:\Users\Chrstn Clfs\Desktop\Files in CS-Elective\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.pdb
+C:\Users\Chrstn Clfs\Desktop\Files in CS-Elective\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\bin\Debug\myDbase.mdb
+C:\Users\Chrstn Clfs\Desktop\Files in CS-Elective\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\bin\Debug\Point_of_Sale_System___Christian_Q.Cleofas.exe
+C:\Users\Chrstn Clfs\Desktop\Files in CS-Elective\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\bin\Debug\Point_of_Sale_System___Christian_Q.Cleofas.pdb
+C:\Users\Chrstn Clfs\Desktop\Files in CS-Elective\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\bin\Debug\Point_of_Sale_System___Christian_Q.Cleofas.xml
+C:\Users\Chrstn Clfs\Desktop\Files in CS-Elective\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point of Sale System - Christian Q. Cleofas.vbprojResolveAssemblyReference.cache
+C:\Users\Chrstn Clfs\Desktop\Files in CS-Elective\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.Bagsakan.resources
+C:\Users\Chrstn Clfs\Desktop\Files in CS-Elective\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.Cashier.resources
+C:\Users\Chrstn Clfs\Desktop\Files in CS-Elective\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.LoginForm.resources
+C:\Users\Chrstn Clfs\Desktop\Files in CS-Elective\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.MainForm.resources
+C:\Users\Chrstn Clfs\Desktop\Files in CS-Elective\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.Resources.resources
+C:\Users\Chrstn Clfs\Desktop\Files in CS-Elective\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.ReportView.resources
+C:\Users\Chrstn Clfs\Desktop\Files in CS-Elective\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.StockDashboard.resources
+C:\Users\Chrstn Clfs\Desktop\Files in CS-Elective\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.StockRep1.resources
+C:\Users\Chrstn Clfs\Desktop\Files in CS-Elective\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.UserForm.resources
+C:\Users\Chrstn Clfs\Desktop\Files in CS-Elective\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point of Sale System - Christian Q. Cleofas.vbproj.GenerateResource.Cache
+C:\Users\C-John Trapsi\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\bin\Debug\myDbase.mdb
+C:\Users\C-John Trapsi\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\bin\Debug\Point_of_Sale_System___Christian_Q.Cleofas.exe.config
+C:\Users\C-John Trapsi\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\bin\Debug\Point_of_Sale_System___Christian_Q.Cleofas.exe
+C:\Users\C-John Trapsi\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\bin\Debug\Point_of_Sale_System___Christian_Q.Cleofas.pdb
+C:\Users\C-John Trapsi\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\bin\Debug\Point_of_Sale_System___Christian_Q.Cleofas.xml
+C:\Users\C-John Trapsi\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.Bagsakan.resources
+C:\Users\C-John Trapsi\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.Cashier.resources
+C:\Users\C-John Trapsi\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.LoginForm.resources
+C:\Users\C-John Trapsi\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.MainForm.resources
+C:\Users\C-John Trapsi\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.Resources.resources
+C:\Users\C-John Trapsi\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.SalesReportView.resources
+C:\Users\C-John Trapsi\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.InventoryDashBoard.resources
+C:\Users\C-John Trapsi\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.StockReportView1.resources
+C:\Users\C-John Trapsi\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.UserForm.resources
+C:\Users\C-John Trapsi\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.UserReportView.resources
+C:\Users\C-John Trapsi\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point of Sale System - Christian Q. Cleofas.vbproj.GenerateResource.Cache
+C:\Users\C-John Trapsi\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.exe
+C:\Users\C-John Trapsi\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.xml
+C:\Users\C-John Trapsi\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.pdb
+C:\Users\C-John Trapsi\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point of Sale System - Christian Q. Cleofas.vbprojResolveAssemblyReference.cache
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.SalesReportView.resources
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.InventoryDashBoard.resources
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.StockReportView1.resources
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.UserReportView.resources
+C:\Users\Chrstn Clfs\Desktop\OneFolder\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\bin\Debug\Point_of_Sale_System___Christian_Q.Cleofas.exe.config
+C:\Users\Chrstn Clfs\Desktop\OneFolder\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.exe
+C:\Users\Chrstn Clfs\Desktop\OneFolder\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.xml
+C:\Users\Chrstn Clfs\Desktop\OneFolder\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.pdb
+C:\Users\Chrstn Clfs\Desktop\OneFolder\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\bin\Debug\myDbase.mdb
+C:\Users\Chrstn Clfs\Desktop\OneFolder\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\bin\Debug\Point_of_Sale_System___Christian_Q.Cleofas.exe
+C:\Users\Chrstn Clfs\Desktop\OneFolder\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\bin\Debug\Point_of_Sale_System___Christian_Q.Cleofas.pdb
+C:\Users\Chrstn Clfs\Desktop\OneFolder\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\bin\Debug\Point_of_Sale_System___Christian_Q.Cleofas.xml
+C:\Users\Chrstn Clfs\Desktop\OneFolder\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point of Sale System - Christian Q. Cleofas.vbprojResolveAssemblyReference.cache
+C:\Users\Chrstn Clfs\Desktop\OneFolder\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.Bagsakan.resources
+C:\Users\Chrstn Clfs\Desktop\OneFolder\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.Cashier.resources
+C:\Users\Chrstn Clfs\Desktop\OneFolder\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.LoginForm.resources
+C:\Users\Chrstn Clfs\Desktop\OneFolder\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.MainForm.resources
+C:\Users\Chrstn Clfs\Desktop\OneFolder\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.Resources.resources
+C:\Users\Chrstn Clfs\Desktop\OneFolder\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.SalesReportView.resources
+C:\Users\Chrstn Clfs\Desktop\OneFolder\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.InventoryDashBoard.resources
+C:\Users\Chrstn Clfs\Desktop\OneFolder\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.StockReportView1.resources
+C:\Users\Chrstn Clfs\Desktop\OneFolder\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.UserForm.resources
+C:\Users\Chrstn Clfs\Desktop\OneFolder\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.UserReportView.resources
+C:\Users\Chrstn Clfs\Desktop\OneFolder\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point of Sale System - Christian Q. Cleofas.vbproj.GenerateResource.Cache
+C:\Users\Chrstn Clfs\Desktop\Files Now\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\bin\Debug\Point_of_Sale_System___Christian_Q.Cleofas.exe.config
+C:\Users\Chrstn Clfs\Desktop\Files Now\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.exe
+C:\Users\Chrstn Clfs\Desktop\Files Now\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.xml
+C:\Users\Chrstn Clfs\Desktop\Files Now\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.pdb
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.FormPrinter.resources
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.Discount.resources
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.PaymentOption.resources
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.CashierEditForm.resources
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.CashPay.resources
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point of Sale System - Christian Q. Cleofas.vbprojResolveAssemblyReference.cache
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.SearchItemForm.resources
+C:\Users\Chrstn Clfs\Desktop\Point of Sale System - Christian Q. Cleofas\Point of Sale System - Christian Q. Cleofas\obj\x86\Debug\Point_of_Sale_System___Christian_Q.Cleofas.AddQtyCashier.resources

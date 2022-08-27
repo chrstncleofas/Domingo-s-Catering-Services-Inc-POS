@@ -1,0 +1,552 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Point_of_Sale_System___Christian_Q.Cleofas
+</name>
+</assembly>
+<members>
+<member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAll.tblstockDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAll.tbluserDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAll.tblinvoiceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAll.tbltranDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAll.tblvoidDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAll.tblstockRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAll.tbluserRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAll.tblinvoiceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAll.tbltranRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAll.tblvoidRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAll.tblstockRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAll.tbluserRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAll.tblinvoiceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAll.tbltranRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAll.tblvoidRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAll">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAllTableAdapters.tblstockTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAllTableAdapters.tbluserTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAllTableAdapters.tblinvoiceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAllTableAdapters.tbltranTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAllTableAdapters.tblvoidTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAllTableAdapters.TableAdapterManager.UpdateUpdatedRows(Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAll,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAllTableAdapters.TableAdapterManager.UpdateInsertedRows(Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAll,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAllTableAdapters.TableAdapterManager.UpdateDeletedRows(Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAll,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAllTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAllTableAdapters.TableAdapterManager.UpdateAll(Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAll)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAllTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAllTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.DataSetForAllTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.G">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.Gcash">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_add_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_add_user_male_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_add_user_male_1001">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_add_user_male_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_add_user_male_641">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_back_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_bank_cards_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_business_report_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_business_report_1001">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_cash_register_80">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_cash_register_801">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_cash_register_802">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_cashier_60">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_cashier_601">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_clear_symbol_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_clear_symbol_1001">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_clear_symbol_1002">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_clear_symbol_96">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_clear_symbol_961">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_close_240">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_close_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_close_64__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_close_64__1_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_close_64__1_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_close_641">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_close_642">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_cursor_in_window_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_delete_receipt_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_edit_file_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_edit_file_641">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_end_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_export_excel_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_eye_checked_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_eye_unchecked_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_file_preview_96">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_first_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_folder_400">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_home_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_initiate_money_transfer_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_initiate_money_transfer_1001">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_initiate_money_transfer_1002">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_inventory_flow_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_inventory_flow_1001">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_inventory_flow_1002">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_last_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_left_arrow_90">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_loading_60">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_loading_601">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_lock_50">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_login_128">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_login_1281">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_logout_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_logout_100__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_logout_rounded_up_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_logout_rounded_up_641">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_mastercard_logo_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_microsoft_excel_50">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_microsoft_excel_500">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_microsoft_excel_501">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_mts_money_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_mts_money_1001">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_new_product_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_new_product_1001">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_new_product_1002">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_new_product_1003">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_next_page_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_paycheque_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_payment_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_payment_641">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_payment_check_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_preview_pane_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_print_file_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_printer_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_printer_641">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_printer_642">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_refresh_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_remove_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_remove_1001">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_report_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_report_641">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_report_file_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_report_file_641">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_sales_performance_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_save_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_save_100__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_save_1001">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_save_52">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_save_521">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_search_50">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_search_501">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_settings_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_settings_150">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_skip_to_start_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_trash_192">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_trash_240">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_upload_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_upload_1001">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_user_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_voucher_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.icons8_voucher_641">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources.Reload">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Point_of_Sale_System___Christian_Q.Cleofas.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
